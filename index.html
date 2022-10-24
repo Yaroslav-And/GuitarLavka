@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mainMedia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Doppio+One&display=swap" rel="stylesheet">
+    <title>«Guitar Lavka»</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="head">
+                <div class="head-location">
+                    <p class="head-location__text">Ваш город: <span>Самара</span></p>
+                </div>
+                <div class="head-contacts head-contacts__delete">
+                    <a href="https://web.whatsapp.com/" class="head-contacts__links "><img src="svg/vatsap.svg"
+                            alt="vatsap" class="head-contacts__img"></a>
+                    <a href="https://xn--80affa3aj0al.xn--80asehdb/" class="head-contacts__links"><img src="svg/tl.svg"
+                            alt="vatsap" class="head-contacts__img"></a>
+                    <a href="https://www.viber.com/ru/" class="head-contacts__links "><img src="svg/vb.svg" alt="vatsap"
+                            class="head-contacts__img"></a>
+                    <a href="https://vk.com/login" class="head-contacts__links"><img src="svg/vk.svg" alt="vatsap"
+                            class="head-contacts__img"></a>
+                    <a href="https://www.youtube.com/" class="head-contacts__links"><img src="svg/youtube.svg"
+                            alt="vatsap" class="head-contacts__img"></a>
+                    <a href="https://www.instagram.com/accounts/login/" class="head-contacts__links "><img
+                            src="svg/inst.svg" alt="vatsap" class="head-contacts__img"></a>
+                </div>
+                <div class="head-phones">
+                    <p class="head-phones__text"><a href="tel:8(800)1002680" class="head-phones__link">8 (800) 10026 80
+                        </a>&nbsp;ЕЖЕДНЕВНО 10:00-20:00 </p>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="navigation-row">
+                    <form action="" class="search-form">
+                        <button class="search-form__btn"><img src="svg/search.svg" alt="search"></button>
+                        <input type="text" class="search-form__item" placeholder="ПОИСК">
+                    </form>
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo" class="logo__img">
+                    </div>
+                    <div class="selected">
+                        <a href=""><img src="svg/favorite.svg" alt="favorite" class="selected__img favorite"></a>
+                        <a href=""><img src="svg/basket.svg" alt="basket" class="selected__img basket"></a>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <img src="images/mobilelogo.png" alt="">
+                                <li><a class="menu__item" href="#">Каталог</a></li>
+                                <li><a class="menu__item" href="#">Услуги</a></li>
+                                <li><a class="menu__item" href="#">Контакты</a></li>
+                                <li><a class="menu__item" href="#">Опт</a></li>
+                                <li><a class="menu__item item__litle" href="#">Доставка</a></li>
+                                <li><a class="menu__item item__litle" href="#">Отзывы</a></li>
+                                <li><a class="menu__item item__litle" href="#">Обучение</a></li>
+                                <li><a class="menu__item item__litle" href="#">О нас</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <menu class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">КАТАЛОГ</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">УСЛУГИ</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">О НАС</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">ДОСТАВКА</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">ОТЗЫВЫ</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">ОБУЧЕНИЕ</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">КОНТАКТЫ</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__item">ОПТ</a></li>
+                    </ul>
+                </menu>
+            </div>
+            <div class="slide-container">
+                <div class="slider">
+                    <div class="slider-line">
+                        <div class="slider-line__block">
+                            <img src="images/takamine.jpg" alt="takamine">
+                            <a href="#" class="slider-line__link">подробнее</a>
+                        </div>
+                        <div class="slider-line__block">
+                            <img src="images/videoCall.jpg" alt="videoCall">
+                            <a href="#" class="slider-line__link">подробнее</a>
+                        </div>
+                        <div class="slider-line__block"><img src="images/tuning.jpg" alt="tuning">
+                            <a href="#" class="slider-line__link">подробнее</a>
+                        </div>
+                        <div class="slider-line__block"><img src="images/kempaG1.jpg" alt="kempaG1">
+                            <a href="#" class="slider-line__link">подробнее</a>
+                        </div>
+                    </div>
+                    <button class="btn-right slider-btn"><img src="svg/array.svg" alt="right"
+                            class="img-right"></button>
+                    <button class="btn-left slider-btn"><img src="svg/array-left.svg" alt="left"
+                            class="img-left"></button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="header-grid">
+                    <a href="" class="header-grid__item guitar-link">
+                        <div class="grid-block">
+                            <img src="images/guitars.jpg" alt="" class="header-grid__img">
+                            <div class="grid-bg"><img src="svg/mediator.svg" alt="" class="header-grid__btn">
+                                <p class="grid-bg__item">Гитары</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="grid-block">
+                            <img src="images/ukulele.jpg" alt="" class="header-grid__img">
+                            <div class="grid-bg"><img src="svg/mediator.svg" alt="" class="header-grid__btn">
+                                <p class="grid-bg__item">Укулеле</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="header-grid__item accsessorias-link">
+                        <div class="grid-block">
+                            <img src="images/accsessorias.jpg" alt="" class="header-grid__img">
+                            <div class="grid-bg"><img src="svg/mediator.svg" alt="" class="header-grid__btn">
+                                <p class="grid-bg__item">Акксесуары</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="header-grid__item strings-link">
+                        <div class="grid-block">
+                            <img src="images/strings.jpg" alt="" class="header-grid__img">
+                            <div class="grid-bg"><img src="svg/mediator.svg" alt="" class="header-grid__btn">
+                                <p class="grid-bg__item">Укулеле</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <section class="partners">
+        <div class="container">
+            <div class="partners-margins">
+                <div class="partners-flex">
+                    <a href="" class="partners-flex__item"><img src="images/anuenue.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/kempa.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/elixir.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item partners-flex__item-delet partners-flex__img"><img
+                            src="images/jojo.png " alt=""></a>
+                    <a href="" class="partners-flex__item"><img src="images/godir.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/kremona.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/maton.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/tom.png " alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/enyaMusic.png" alt=""
+                            class="partners-flex__img"></a>
+                    <a href="" class="partners-flex__item"><img src="images/sigmaGuitars.png" alt=""
+                            class="partners-flex__img"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="popularProducts">
+                <h2 class="products-title">Популярные товары</h2>
+                <div class="products-slider">
+                    <div class="popularProducts-slider">
+                        <div class="products-cards">
+                            <div class="product-card">
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="images/product.jpg" alt="" class="slider-card__img">
+                                    <p class="slider-card__item">Укулеле</p>
+                                    <h3 class="slider-card__title">Enya EUC-MAD</h3>
+                                    <div class="slider-raiting">
+                                        <p class="slider-card__price">₽24 890</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                            <br>
+                                            <p class="reviews">7 отзывов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-right slider-btn"><img src="svg/array.svg" alt="right"
+                            class="img-right"></button>
+                    <button class="card-left slider-btn"><img src="svg/array-left.svg" alt="left"
+                            class="img-left"></button>
+                </div>
+            </div>
+            <div class="services">
+                <h2 class="products-title">Услуги</h2>
+                <div class="services-block">
+                    <div class="services-card">
+                        <figure class="services-card__item">
+                            <img src="images/education.jpg" alt="" class="services-card__img">
+                            <figcaption>
+                                <a href="#" class="services-card__title"><span class="span-active"
+                                        data-replace="Показать ещё">Обучение</span></a>
+                                <p class="services-card__sub-title">В нашей гитарной мастерской мы оказываем полный
+                                    спектр услуг
+                                    по ремонту и обслуживанию музыкальных инструментов, в том числе и изготовление
+                                    на заказ.
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <div class="services-card_mobile">
+                            <img src="images/serviceMobile.png" alt="" class="services-card_mobile">
+                            <p class="services-card_mobile">Обучение</p>
+                        </div>
+
+                    </div>
+                    <div class="services-card">
+                        <figure class="services-card__item">
+                            <img src="images/services.jpg" alt="" class="services-card__img">
+                            <figcaption>
+                                <a href="#" class="services-card__title"><span class="span-active"
+                                        data-replace="Показать ещё">Трейд-ин</span></a>
+                                <p class="services-card__sub-title">В нашей гитарной мастерской мы оказываем полный
+                                    спектр услуг
+                                    по ремонту и обслуживанию музыкальных инструментов, в том числе и изготовление
+                                    на заказ.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="services-card">
+                        <figure class="services-card__item">
+                            <img src="images/repair.jpg" alt="" class="services-card__img">
+                            <figcaption>
+                                <a href="#" class="services-card__title"><span class="span-active"
+                                        data-replace="Показать ещё">Ремонт</span></a>
+                                <p class="services-card__sub-title">В нашей гитарной мастерской мы оказываем полный
+                                    спектр услуг
+                                    по ремонту и обслуживанию музыкальных инструментов, в том числе и изготовление
+                                    на заказ.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="mobile-card">
+                        <div class="services-card_mobile"><a href=""><img src="images/serviceMobile.png" alt=""
+                                    class="services-card_mobile"></a>
+                            <p class="services-card_mobile">Обучение</p>
+                            <div class="mobile-bg"></div>
+                        </div>
+                        <div class="services-card_mobile">
+                            <a href=""><img src="images/serviceMobile.png" alt="" class="services-card_mobile"></a>
+                            <p class="services-card_mobile">Ремонт</p>
+                            <div class="mobile-bg"></div>
+                        </div>
+                    </div>
+                    <div class="mobile-card2">
+                        <div class="services-card_mobile">
+                            <a href=""><img src="images/serviceMobile.png" alt="" class="services-card_mobile"></a>
+                            <p class="services-card_mobile">Трейд-ин</p>
+                            <div class="mobile-bg"></div>
+                        </div>
+                        <div class="services-card_mobile">
+                            <a href=""><img src="images/serviceMobile.png" alt="" class="services-card_mobile"></a>
+                            <p class="services-card_mobile">Подбор инструментов</p>
+                            <div class="mobile-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="back_to_top"><img src="svg/return.svg" alt="" class="return-arraw"></a>
+            </div>
+            <div class="services-form">
+                <div class="services-background"><img src="images/guitarClub.jpg" alt=""
+                        class="services-background__img"></div>
+                <div class="form-block">
+                    <p class="form-block__item">ВСТУПАЙ В КЛУБ </p>
+                    <h2 class="form-block__title">GUITAR LAVKA</h2>
+                    <p class="form-block__sub-title">Полезные письма об инструментах и мероприятиях</p>
+                    <form action="#" class="email-form" method="get" name="emailForm">
+                        <input type="email" placeholder="   Ваш email ... " class="email-form__item">
+                        <button class="email-form__btn"><img src="svg/tl.svg" alt=""></button>
+                        <a href="#">
+                            <p class="email-form__text">Я даю согласие на обработку своих персональных данных </p>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <hr class="footer-line">
+            <div class="footer-block">
+                <div class="footer-information">
+                    <img src="images/logo2.png" alt="" class="footer-information__img">
+                    <p class="footer-information__text">Мы работаем по всей России,<br>
+                        поэтому можем сделать онлайн-показ<br>
+                        инструмента и доставить его до вашей двери
+                    </p>
+                    <div class="footer-contacts">
+                        <p class="footer-contacts__phone">Остались вопросы?<br>
+                            <a href="tel:8(800)1002680">8 (800) 100-26-80</a>
+                        </p>
+                        <p class="footer-contacts__mail">ЕЖЕДНЕВНО 10:00 - 20:00 <a href="#">info@guitarlavka.ru</a></p>
+                    </div>
+                    <div class="footer-icons head-contacts">
+                        <a href="" class="head-contacts__links "><img src="svg/vatsap.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                        <a href="" class="head-contacts__links"><img src="svg/tl.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                        <a href="" class="head-contacts__links "><img src="svg/vb.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                        <a href="" class="head-contacts__links"><img src="svg/vk.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                        <a href="" class="head-contacts__links"><img src="svg/youtube.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                        <a href="" class="head-contacts__links "><img src="svg/inst.svg" alt="vatsap"
+                                class="head-contacts__img"></a>
+                    </div>
+                    <div class="footer-payment">
+                        <p class="footer-payment__text">СПОСОБЫ ОПЛАТЫ</p>
+                        <div class="payment-block">
+                            <a href=""><img src="images/masterCard.png" alt=""></a>
+                            <a href=""><img src="images/applePay.png" alt=""></a>
+                            <a href=""><img src="images/payPal.png" alt=""></a>
+                            <a href=""><img src="images/visa.png" alt=""></a>
+                            <a href=""><img src="images/yandexMoney.png" alt=""></a>
+                        </div>
+                    </div>
+                    <p class="privacyPolicy">© 2021 GuitarLavka - музыкальный магазин <a href="#">Политика
+                            конфиденциальности</a></p>
+                </div>
+                <div class="footer-navigation">
+                    <div class="navigation-flex">
+                        <div class="navigation-catalog">
+                            <h3>КАТАЛОГ</h3>
+                            <ul class="navigation-flex__item">
+                                <a href="">
+                                    <li>Гитары</li>
+                                </a>
+                                <a href="#">
+                                    <li>Укулеле</li>
+                                </a>
+                                <a href="#">
+                                    <li>Акксесуары</li>
+                                </a>
+                                <a href="#">
+                                    <li>Струны</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="navigation-service">
+                            <h3>СЕРВИС</h3>
+                            <ul class="navigation-flex__item">
+                                <a href="#">
+                                    <li>Оплата</li>
+                                </a>
+                                <a href="#">
+                                    <li>Гарантия</li>
+                                </a>
+                                <a href="#">
+                                    <li>Доставка</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="navigation-services">
+                            <h3>УСЛУГИ</h3>
+                            <ul class="navigation-flex__item">
+                                <a href="#">
+                                    <li>Ремонт</li>
+                                </a>
+                                <a href="#">
+                                    <li>Онлайн подбор</li>
+                                </a>
+                                <a href="#">
+                                    <li>Обучение</li>
+                                </a>
+                                <a href="#">
+                                    <li>Коммисионка</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="images/phone.jpg" alt="" class="footer__img">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
